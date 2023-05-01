@@ -1,4 +1,7 @@
+console.log("Webpack is working!");
 
-const GameCanvas = require("./game_canvas.js");
-console.log("Webpack is working!")
+// import MovingObject from "./moving_object.js";
+
+import MovingObject from "./moving_object.js";
+window.MovingObject = MovingObject;
 

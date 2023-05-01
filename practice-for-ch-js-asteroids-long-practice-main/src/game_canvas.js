@@ -8,9 +8,5 @@ document.addEventListener("DOMContentLoaded", () => {
     ctx.fillStyle = "yellow";
     ctx.fillRect(0, 0, 200, 200);
 
-    // ctx.fillStyle = "black";
-    // ctx.fillRect(0, 0, 400, 400);
-
 })
 
-module.exports = GameCanvas;
