@@ -20,7 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
         color: "#00FF00"
       });
 
-      console.log(moo);
+    window.moo = moo;
+    
 
 })
 
